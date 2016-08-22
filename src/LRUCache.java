@@ -1,4 +1,4 @@
-import java.util.Hashtable;
+import java.util.HashMap;
 
 public class LRUCache{
 
@@ -15,7 +15,6 @@ public class LRUCache{
 	private void addNode(DLinkedNode node){
 		node.pre = head;
 		node.post = head.post;
-		
 		head.post.pre = node;
 		head.post = node;
 	}
@@ -46,8 +45,8 @@ public class LRUCache{
 		return res;
 	}
 
-	private Hashtable<Integer, DLinkedNode> 
-		cache = new Hashtable<Integer, DLinkedNode>();
+	private HashMap<Integer, DLinkedNode> 
+		cache = new HashMap<Integer, DLinkedNode>();
 	private int count;
 	private int capacity;
 	private DLinkedNode head, tail;
