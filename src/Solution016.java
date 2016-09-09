@@ -1,10 +1,10 @@
 import java.util.Arrays;
 
-public class Solution16 {
+public class Solution016 {
 	public static void main(String[] args){
 		int[] nums = {-1,2,1,-4};
 		int target = 1 ;
-		Solution16 s = new Solution16();
+		Solution016 s = new Solution016();
 		System.out.println(s.threeSumClosest(nums, target));
 	}
     public int threeSumClosest(int[] nums, int target) {

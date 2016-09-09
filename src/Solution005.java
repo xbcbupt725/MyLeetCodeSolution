@@ -1,9 +1,9 @@
 import java.util.Arrays;
 
-public class Solution5 {
+public class Solution005 {
 	public static void main(String[] args){
 		String str = "aaabaaaa";
-		Solution5 s = new Solution5();
+		Solution005 s = new Solution005();
 		System.out.println(s.longestPalindrome(str));		
 	}
     public String longestPalindrome(String s) {

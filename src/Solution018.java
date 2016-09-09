@@ -4,11 +4,11 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class Solution18 {
+public class Solution018 {
 	public static void main(String[] args) {
 		int[] nums = { -3, -2, -1, 0, 0, 1, 2, 3 };
 		int target = 0;
-		Solution18 s = new Solution18();
+		Solution018 s = new Solution018();
 		List<List<Integer>> ll = s.fourSum(nums, target);
 		for (List<Integer> l : ll) {
 			for (Integer i : l) {

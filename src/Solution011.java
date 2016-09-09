@@ -4,10 +4,10 @@
  *
  */
 //11. Container With Most Water
-public class Solution11 {
+public class Solution011 {
 	public static void main(String[] args){
 		int[] a = {10,9,8,7,6,5,4,3,2,1};
-		Solution11 s = new Solution11();
+		Solution011 s = new Solution011();
 		System.out.println(s.maxArea(a));
 	}
 	public int maxArea(int[] height) {

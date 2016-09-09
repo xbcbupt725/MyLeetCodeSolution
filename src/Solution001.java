@@ -2,11 +2,11 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution1 {
+public class Solution001 {
 	public static void main(String[] args){
 		int[] nums ={3,2,4};
 		int target = 6;
-	    Solution1 s = new Solution1();
+	    Solution001 s = new Solution001();
 	    int[] result =s.twoSum(nums, target);
 	    for(int i = 0; i < result.length; ++i){
 	    	System.out.println(result[i]);

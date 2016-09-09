@@ -1,9 +1,9 @@
 
-public class Solution4 {
+public class Solution004 {
 	public static void main(String[] args){
 		int a[] = {1,3};
 		int b[] = {2};
-		Solution4 s = new Solution4();
+		Solution004 s = new Solution004();
 		System.out.println(s.findMedianSortedArrays(a, b));
 	}
 	public double findMedianSortedArrays(int[] nums1, int[] nums2) {

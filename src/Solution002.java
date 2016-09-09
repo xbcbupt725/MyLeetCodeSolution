@@ -1,5 +1,5 @@
 
-public class Solution2 {
+public class Solution002 {
 	ListNode last;
 	public static void main(String[] args){
 		int a[] = {2,4,9};
@@ -8,7 +8,7 @@ public class Solution2 {
 		ListNode.print(la);
 		ListNode lb = ListNode.makeList(b);
 		ListNode.print(lb);
-		Solution2 s = new Solution2();
+		Solution002 s = new Solution002();
 		ListNode head = s.addTwoNumbers(la, lb);
 		
 		

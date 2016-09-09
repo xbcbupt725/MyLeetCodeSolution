@@ -1,8 +1,8 @@
-public class Solution10{
+public class Solution010{
 	public static void main(String[] args){
 		String s = "aa";
 		String p = "a**";
-		Solution10 s10 = new Solution10();
+		Solution010 s10 = new Solution010();
 		System.out.println(s10.isMatch(s, p));
 		System.out.println(s10.isMatch1(s, p));
 	}

@@ -2,10 +2,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-public class Solution3 {
+public class Solution003 {
 	public static void main(String[] args){
 		String str = "abcabcbb";
-		Solution3 s = new Solution3();
+		Solution003 s = new Solution003();
 		System.out.println(s.lengthOfLongestSubstring(str));
 	}
 	public int lengthOfLongestSubstring(String s) {
