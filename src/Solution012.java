@@ -7,9 +7,9 @@ public class Solution012 {
     public String intToRoman(int num) {
         StringBuilder sb = new StringBuilder();
         final String[][] set ={ 
-        	{"","I","II","III","IV","V","VI","VII","VIII","IX","X"},
-        	{"","X","XX","XXX","XL","L","LX","LXX","LXXX","XC","C"},
-        	{"","C","CC","CCC","CD","D","DC","DCC","DCCC","CM","M"},
+        	{"","I","II","III","IV","V","VI","VII","VIII","IX"},
+        	{"","X","XX","XXX","XL","L","LX","LXX","LXXX","XC"},
+        	{"","C","CC","CCC","CD","D","DC","DCC","DCCC","CM"},
         	{"","M","MM","MMM","","","","","","",""},
         };
         int m = num / 1000;
